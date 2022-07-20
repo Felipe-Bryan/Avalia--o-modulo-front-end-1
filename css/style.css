@@ -1,7 +1,7 @@
 /*GRID*/
 .parent {
   display: grid;
-  height: 95vh;
+  height: 100vh;
   margin: 0px;
   grid-template-columns: minmax(100px, 17%) 1fr;
 }
@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .navbar {
