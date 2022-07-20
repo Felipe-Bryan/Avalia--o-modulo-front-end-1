@@ -46,11 +46,20 @@
   color: gray;
 }
 
+#social-networks {
+  text-decoration: none;
+}
+
 #nav-items {
   color: white;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 #conhecimentos {
