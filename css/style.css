@@ -37,9 +37,21 @@
   padding: 0px;
 }
 
+#profile-name-2 {
+  color: gray;
+}
+
 #nav-items {
   color: white;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0px;
+}
+
+#conhecimentos {
+  font-size: 25px;
+}
+
+#objetivos {
+  font-size: 25px;
 }
