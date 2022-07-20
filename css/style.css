@@ -6,16 +6,6 @@
   grid-template-columns: minmax(100px, 17%) 1fr;
 }
 
-.content {
-  height: 100vh;
-  margin: 0px;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 .navbar {
   height: 100vh;
   margin: 0px;
@@ -24,6 +14,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+  height: 100vh;
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #avatar1 {
@@ -35,9 +35,14 @@
 
 #profile-name {
   padding: 0px;
+  word-wrap: normal;
 }
 
 #profile-name-2 {
+  color: gray;
+}
+
+#city {
   color: gray;
 }
 
