@@ -1,0 +1,44 @@
+/*GRID*/
+.parent {
+  display: grid;
+  height: 95vh;
+  margin: 0px;
+  grid-template-columns: minmax(100px, 17%) 1fr;
+}
+
+.content {
+  height: 100vh;
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  height: 100vh;
+  margin: 0px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  margin: 0px;
+}
+
+#profile-name {
+  padding: 0px;
+}
+
+#nav-items {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
