@@ -4,7 +4,6 @@
   height: 100vh;
   margin: 0px;
   grid-template-columns: minmax(100px, 17%) 1fr;
-  margin-bottom: -10px;
 }
 
 .navbar {
@@ -63,4 +62,9 @@
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.253);
+  transition: all 0.5s;
 }
