@@ -73,3 +73,12 @@ body {
   overflow: hidden;
   margin: 0px;
 }
+
+.active {
+  background-color: rgba(255, 255, 255, 0.253);
+  font-weight: bolder;
+}
+
+.active:hover {
+  transition: all 0.5s;
+}
