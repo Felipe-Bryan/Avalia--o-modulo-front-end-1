@@ -4,11 +4,14 @@
   height: 100vh;
   margin: 0px;
   grid-template-columns: minmax(100px, 17%) 1fr;
+  background-image: url(/assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
   height: 100vh;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.555);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,11 +33,6 @@
   height: 150px;
   border-radius: 200px;
   margin: 0px;
-}
-
-#profile-name {
-  padding: 0px;
-  word-wrap: normal;
 }
 
 #profile-name-2 {
