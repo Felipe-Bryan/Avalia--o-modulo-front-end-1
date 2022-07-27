@@ -36,11 +36,11 @@
 }
 
 #profile-name-2 {
-  color: gray;
+  color: #808080;
 }
 
 #city {
-  color: gray;
+  color: #808080;
 }
 
 #nav-items {
@@ -50,22 +50,15 @@
   font-variant: small-caps;
 }
 
-#conhecimentos {
-  font-size: 20px;
-}
-
-#objetivos {
-  font-size: 20px;
-}
-
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .button:hover {
   background-color: rgba(255, 255, 255, 0.253);
   transition: all 0.5s;
+  font-size: 17px;
 }
 
 body {
@@ -80,4 +73,29 @@ body {
 
 .active:hover {
   transition: all 0.5s;
+  font-size: 17px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+}
+
+@font-face {
+  font-family: "farewell angelina";
+  src: url(/assets/farewell_angelina_display_sample.ttf);
+}
+
+#content {
+  font-family: farewell angelina;
+}
+
+.conhecimentos {
+  font-family: farewell angelina;
+  font-size: 20px;
+}
+
+.objetivos {
+  font-family: farewell angelina;
+  font-size: 20px;
 }
