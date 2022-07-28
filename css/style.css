@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "farewell angelina";
+  src: url(/assets/farewell_angelina_display_sample.ttf);
+}
+
 /*GRID*/
 .parent {
   display: grid;
@@ -79,17 +84,13 @@ body {
 .social-icon {
   width: 50px;
   height: 50px;
+  padding: 1px;
 }
 
 .social-icon:hover {
   width: 55px;
   height: 55px;
   transition: 0.2s;
-}
-
-@font-face {
-  font-family: "farewell angelina";
-  src: url(/assets/farewell_angelina_display_sample.ttf);
 }
 
 #content {
