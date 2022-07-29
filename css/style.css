@@ -30,7 +30,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #avatar1 {
@@ -41,11 +40,11 @@
 }
 
 #profile-name-2 {
-  color: #808080;
+  color: #535353;
 }
 
 #city {
-  color: #808080;
+  color: #535353;
 }
 
 #nav-items {
@@ -105,4 +104,12 @@ body {
 .objetivos {
   font-family: farewell angelina;
   font-size: 20px;
+}
+
+.iframe {
+  width: 300px;
+  height: 220px;
+  position: fixed;
+  left: 56%;
+  top: 39%;
 }
