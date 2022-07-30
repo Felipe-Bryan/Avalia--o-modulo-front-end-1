@@ -3,6 +3,11 @@
   src: url(/assets/farewell_angelina_display_sample.ttf);
 }
 
+body {
+  overflow: hidden;
+  margin: 0px;
+}
+
 /*GRID*/
 .parent {
   display: grid;
@@ -32,19 +37,13 @@
   justify-content: center;
 }
 
+/*NAVBAR*/
+
 #avatar1 {
   width: 150px;
   height: 150px;
   border-radius: 200px;
   margin: 0px;
-}
-
-#profile-name-2 {
-  color: #535353;
-}
-
-#city {
-  color: #535353;
 }
 
 #nav-items {
@@ -65,11 +64,6 @@ a {
   font-size: 17px;
 }
 
-body {
-  overflow: hidden;
-  margin: 0px;
-}
-
 .active {
   background-color: rgba(255, 255, 255, 0.253);
   font-weight: bolder;
@@ -78,6 +72,16 @@ body {
 
 .active:hover {
   transition: all 0.5s;
+}
+
+/*CONTENT*/
+
+#profile-name-2 {
+  color: #535353;
+}
+
+#city {
+  color: #535353;
 }
 
 .social-icon {
@@ -96,12 +100,9 @@ body {
   font-family: farewell angelina;
 }
 
-.conhecimentos {
-  font-family: farewell angelina;
-  font-size: 20px;
-}
+/*CONHECIMENTOS*/
 
-.objetivos {
+.conhecimentos {
   font-family: farewell angelina;
   font-size: 20px;
 }
@@ -112,4 +113,11 @@ body {
   position: fixed;
   left: 56%;
   top: 39%;
+}
+
+/*OBJETIVOS*/
+
+.objetivos {
+  font-family: farewell angelina;
+  font-size: 20px;
 }
