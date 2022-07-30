@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Curriculo Digital</title>
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="icon" type="image/x-icon" href="/assets/curriculum-vitae-icon.png">
-    </head>
-    <body>
-        <div class="parent">
-            <div class="navbar">                
-                <nav>
-                    <figure>
-                        <img src="/assets/avatar.jpeg" alt="avatar" id="avatar1">
-                    </figure>                  
-                    <div id="nav-items" style="margin: 0px;">
-                        <div>
-                            <b><p class="button"><a href="/index.html">Sobre</a></p>
-                        </div>
-                        <div>
-                            <p class="active"><a href="/conhecimentos.html">Conhecimentos</a></p>
-                        </div>
-                        <div>
-                            <p class="button"><a href="/objetivos.html">Objetivos</a></p></b>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="content" style="margin: 0px;">
-                <main class="conhecimentos">
-                    <h3>Conhecimentos</h3><hr>
-                    <ol type="a">
-                        <li>
-                            Inglês - Nível B2 (
-                            <a href="https://www.britishcouncil.org.br/quadro-comum-europeu-de-referencia-para-linguas-cefr" 
-                                style="color: blue" target="_blank">
-                                CEFR
-                            </a>)
-                        </li>
-                        <li>
-                            HTML
-                        </li>
-                        <li>
-                            CSS
-                        </li>
-                        <li>
-                            JavaScript
-                        </li>
-                        <li>
-                            Aplicativos para escritório
-                            <ul>
-                                <li>Excel</li>
-                                <li>PowerPoint</li>
-                                <li>Word</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Ferramentas de desenvolvimento web
-                        </li>
-                    </ol>
-                    <iframe src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipe-bryan&layout=compact=true&theme=tokyonight" frameborder="0" class="iframe">
-                    </iframe>
-                </main>
-            </div>
-        </div>        
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/curriculum-vitae-icon.png"
+      type="image/x-icon"
+    />
+    <title>Curriculo Digital</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="navbar">
+        <figure>
+          <img src="assets/avatar.jpeg" alt="avatar" class="avatar" />
+        </figure>
+        <nav class="nav-menu">
+          <p class="button"><a href="/index.html">Sobre</a></p>
+          <p class="active">
+            <a href="/conhecimentos.html">Conhecimentos</a>
+          </p>
+          <p class="button"><a href="/objetivos.html">Objetivos</a></p>
+        </nav>
+      </div>
+      <div class="content">
+        <table>
+          <thead>
+            <th colspan="3">Conhecimentos</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2" class="list-knowledge">
+                <ol type="a">
+                  <li>
+                    Inglês - Nível B2 (
+                    <a
+                      href="https://www.britishcouncil.org.br/quadro-comum-europeu-de-referencia-para-linguas-cefr"
+                      style="color: rgb(0, 0, 255)"
+                      target="_blank"
+                    >
+                      CEFR </a
+                    >)
+                  </li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>
+                    Aplicativos para escritório
+                    <ul>
+                      <li>Excel</li>
+                      <li>PowerPoint</li>
+                      <li>Word</li>
+                    </ul>
+                  </li>
+                  <li>Ferramentas de desenvolvimento web</li>
+                </ol>
+              </td>
+              <td>
+                <iframe
+                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipe-bryan&layout=compact=true&theme=tokyonight"
+                  frameborder="0"
+                  class="iframe"
+                >
+                </iframe>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
