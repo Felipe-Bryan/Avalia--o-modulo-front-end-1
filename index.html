@@ -19,14 +19,18 @@
           <img src="assets/images/avatar.jpeg" alt="avatar" class="avatar" />
         </figure>
         <nav class="nav-menu">
-          <p class="active"><a href="/index.html">Sobre</a></p>
-          <p class="button">
-            <a href="/conhecimentos.html">Conhecimentos</a>
-          </p>
-          <p class="button"><a href="/objetivos.html">Objetivos</a></p>
+          <div class="button active" id="about">
+            <p onclick="showAbout()">Sobre</p>
+          </div>
+          <div class="button" id="knowledge">
+            <p onclick="showKnowledge()">Conhecimentos</p>
+          </div>
+          <div class="button" id="objective">
+            <p onclick="showObjective()">Objetivos</p>
+          </div>
         </nav>
       </div>
-      <div class="content">
+      <div class="content" id="content">
         <main>
           <div class="index-content">
               <h1 class="profile-name">Felipe <span class="emphasis">Bryan Campos de Moraes</span></h1>
@@ -65,5 +69,6 @@
         </main>
       </div>
     </div>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>
