@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "farewell angelina";
-  src: url(/assets/farewell_angelina_display_sample.ttf);
+  font-family: 'farewell angelina';
+  src: url(/assets/fonts/farewell_angelina_display_sample.ttf);
 }
 
 body {
-  background-image: url(/assets/Background.png);
+  background-image: url(/assets/images/Background.png);
   background-size: cover;
   overflow: hidden;
   margin: 0px;
